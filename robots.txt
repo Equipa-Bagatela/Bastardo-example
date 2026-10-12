@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://josegomes6.github.io/bastardo-site/sitemap.xml

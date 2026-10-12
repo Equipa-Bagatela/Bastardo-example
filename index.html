@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bastardo Restaurante · Peso da Régua · Proposta de website</title>
+  <meta name="description" content="Bastardo Restaurante, em Peso da Régua: une a cozinha mediterrânica e ibérica aos ingredientes, sabores e tradições da região. Proposta de website criada pela Bagatela.">
+  <meta name="theme-color" content="#f7f2e7">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://josegomes6.github.io/bastardo-site/">
+
+  <meta property="og:type" content="restaurant">
+  <meta property="og:site_name" content="Bastardo Restaurante">
+  <meta property="og:locale" content="pt_PT">
+  <meta property="og:url" content="https://josegomes6.github.io/bastardo-site/">
+  <meta property="og:title" content="Bastardo Restaurante · Peso da Régua">
+  <meta property="og:description" content="Uma casta esquecida do Douro que deu nome a este lugar. Proposta de website criada pela Bagatela.">
+  <meta property="og:image" content="https://josegomes6.github.io/bastardo-site/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logótipo do Bastardo Restaurante">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="fonts/instrument-serif-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Bastardo Restaurante",
+    "description": "Restaurante em Peso da Régua que une a cozinha mediterrânica e ibérica aos ingredientes, sabores e tradições da região. Proposta de website da Bagatela.",
+    "servesCuisine": ["Mediterrânica", "Ibérica", "Portuguesa"],
+    "url": "https://josegomes6.github.io/bastardo-site/",
+    "image": "https://josegomes6.github.io/bastardo-site/img/og.jpg",
+    "logo": "https://josegomes6.github.io/bastardo-site/icons/icon-512.png",
+    "hasMenu": "https://josegomes6.github.io/bastardo-site/#menu",
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=41.1616879,-7.7902186",
+    "telephone": "+351 965 364 042",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua do Marquês de Pombal, 49",
+      "postalCode": "5050-282",
+      "addressLocality": "Peso da Régua",
+      "addressCountry": "PT"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 41.1616879, "longitude": -7.7902186 },
+    "sameAs": ["https://www.facebook.com/p/Bastardo-Restaurante-61592483409247/"]
+  }
+  </script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="al-gluten" viewBox="0 0 24 24"><path d="M12 22V7"/><path d="M12 11.5C9 11.500 7.500 10 7.500 7.500 10.500 7.500 12 9 12 11.500z"/><path d="M12 16.500C9 16.500 7.500 15 7.500 12.500 10.500 12.500 12 14 12 16.500z"/><path d="M12 11.500c3 0 4.500-1.500 4.500-4-3 0-4.500 1.500-4.500 4z"/><path d="M12 16.500c3 0 4.500-1.500 4.500-4-3 0-4.500 1.500-4.500 4z"/><path d="M12 7C10.700 6 10.700 3.800 12 2.500 13.300 3.800 13.300 6 12 7z"/></symbol>
+    <symbol id="al-ovo" viewBox="0 0 24 24"><path d="M12 2.500C8 2.500 5 9.500 5 14a7 7 0 0 0 14 0c0-4.500-3-11.500-7-11.500z"/><path d="M9 15.500a3 3 0 0 0 3 2.500"/></symbol>
+    <symbol id="al-leite" viewBox="0 0 24 24"><path d="M8 2.500h8l2 4.500v14.500H6V7l2-4.500z"/><path d="M6 7h12"/><path d="M9 13h6M9 17h6"/></symbol>
+    <symbol id="al-peixe" viewBox="0 0 24 24"><path d="M2.500 12c3-4.500 8-5.500 13-2.500L21 6v12l-5.500-3.500c-5 3-10 2-13-2.500z"/><path d="M7.500 11h.01"/></symbol>
+    <symbol id="al-nozes" viewBox="0 0 24 24"><path d="M12 2.500c4 3 6.500 7 6.500 11.500a6.500 6.500 0 0 1-13 0C5.500 9.500 8 5.500 12 2.500z"/><path d="M12 8c-1.200 3.500-1.200 6.500 0 10"/></symbol>
+    <symbol id="al-sesamo" viewBox="0 0 24 24"><ellipse cx="8" cy="8" rx="2" ry="3.200" transform="rotate(-35 8 8)"/><ellipse cx="16.500" cy="8.500" rx="2" ry="3.200" transform="rotate(30 16.500 8.500)"/><ellipse cx="12" cy="17" rx="2" ry="3.200" transform="rotate(8 12 17)"/></symbol>
+    <symbol id="al-sulfitos" viewBox="0 0 24 24"><path d="M7 3h10l-1 7a4 4 0 0 1-8 0L7 3z"/><path d="M12 14v7M8.500 21h7"/></symbol>
+  </svg>
+  <div class="intro" aria-hidden="true"><img class="intro__logo" src="img/logo-bastardo.png" width="536" height="473" alt=""></div>
+  <a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+
+  <header class="header" id="topo">
+    <div class="header__inner">
+      <nav class="nav nav--l" aria-label="Principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#menu">Menu</a>
+        <a href="#galeria">Ambiente</a>
+      </nav>
+      <a class="logo" href="#topo" aria-label="Bastardo Restaurante, início" translate="no">
+        <span class="logo__name">Bastardo</span>
+        <span class="logo__sub">Restaurante · Peso da Régua</span>
+      </a>
+      <nav class="nav nav--r" aria-label="Secundária">
+        <a href="#horario">Horário</a>
+        <a href="#reservas">Reservas</a>
+      </nav>
+      <a class="btn btn--small btn--header" href="#reservas">Reservar</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="titulo" data-hero>
+      <p class="label hero__label">Restaurante em Peso da Régua</p>
+
+      <h1 class="hero__title" id="titulo">
+        <span class="line" data-drift="-1"><span>Casta</span></span>
+        <span class="line" data-drift="1"><span>antiga,</span></span>
+        <span class="line" data-drift="-1"><span>mesa</span></span>
+        <span class="line" data-drift="1"><span>nova.</span></span>
+      </h1>
+
+      <div class="float f1" data-speed="0.10"><figure><img src="img/assado.webp" width="1400" height="934" alt=""></figure></div>
+      <div class="float f2" data-speed="0.18"><figure><img src="img/vale.webp" width="733" height="1100" alt=""></figure></div>
+      <div class="float f3" data-speed="0.06"><figure><img src="img/vinho-servir.webp" width="733" height="1100" alt=""></figure></div>
+      <div class="float f4" data-speed="0.14"><figure><img src="img/tabua.webp" width="1400" height="1195" alt="Tábua com queijos, presunto e enchidos"></figure></div>
+
+      <p class="script hero__note"><span>sabores do Douro</span></p>
+
+      <div class="hero__cta">
+        <a class="link" href="#reservas">Reservar mesa</a>
+        <a class="link link--plain" href="#menu">Ver menu</a>
+      </div>
+    </section>
+
+    <!-- FAIXA -->
+    <div class="ribbon" aria-hidden="true">
+      <div class="ribbon__row"><div class="ribbon__track label">
+        <span>Na carta</span><span>Alheira de caça</span><span>Bacalhau à lagareiro</span><span>Cabrito assado</span><span>Arroz de pato</span><span>Queijo da Serra</span><span>Abade de Priscos</span><span>Vinhos do Douro</span>
+        <span>Na carta</span><span>Alheira de caça</span><span>Bacalhau à lagareiro</span><span>Cabrito assado</span><span>Arroz de pato</span><span>Queijo da Serra</span><span>Abade de Priscos</span><span>Vinhos do Douro</span>
+      </div></div>
+      <div class="ribbon__row ribbon__row--big"><div class="ribbon__track ribbon__track--rev">
+        <span>Cozinha mediterrânica</span><span>Sabores ibéricos</span><span>Ingredientes da região</span><span>Vinhos do Douro</span>
+        <span>Cozinha mediterrânica</span><span>Sabores ibéricos</span><span>Ingredientes da região</span><span>Vinhos do Douro</span>
+      </div></div>
+    </div>
+
+    <!-- SOBRE (verde) -->
+    <section class="wipe story" id="sobre">
+      <div class="wipe__bg" aria-hidden="true"></div>
+      <div class="wrap story__grid">
+        <div class="story__text">
+          <h2 class="split" data-reveal>Uma casta esquecida deu nome a esta casa.</h2>
+          <p class="story__p" data-reveal style="--d:.1s">O Bastardo é uma casta antiga do Douro, hoje rara. Em Peso da Régua, dá nome a um restaurante que une a cozinha mediterrânica e ibérica aos ingredientes, sabores e tradições da região.</p>
+          <a class="link link--light" href="#menu" data-reveal style="--d:.2s">Ver a carta</a>
+        </div>
+        <div class="story__media" data-reveal>
+          <div class="img-wipe" data-wipe><img loading="lazy" src="img/patio.webp" width="1400" height="933" alt="Pátio de pedra com videiras e flores vermelhas" data-parallax-img></div>
+          <div class="seal" aria-hidden="true">
+            <svg viewBox="0 0 200 200" class="seal__svg"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><circle cx="100" cy="100" r="96" fill="#f7f2e7"/><text font-size="15" letter-spacing="3.4" fill="#b8301f"><textPath href="#circ">BASTARDO · RESTAURANTE · PESO DA RÉGUA ·</textPath></text></svg>
+            <span class="seal__star">✶</span>
+          </div>
+          <p class="script story__note"><span>à moda da casa</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANIFESTO -->
+    <section class="manifesto" aria-label="Sobre a casa">
+      <div class="wrap manifesto__grid">
+        <p class="manifesto__text" data-words>Quando procura mais do que uma refeição à pressa, procura <span class="circled">uma mesa onde ficar<svg viewBox="0 0 400 90" preserveAspectRatio="none" aria-hidden="true"><path d="M12 48c0-24 80-38 188-38s190 14 188 38-84 34-190 34S10 74 12 48z" pathLength="1"/></svg></span>.</p>
+        <div class="manifesto__photos" aria-hidden="true">
+          <div class="polaroid p1" data-reveal data-parallax="0.08"><img loading="lazy" src="img/vinha-casa.webp" width="1400" height="933" alt=""></div>
+          <div class="polaroid p2" data-reveal style="--d:.15s" data-parallax="-0.06"><img loading="lazy" src="img/sala.webp" width="880" height="1100" alt=""></div>
+        </div>
+        <ul class="points">
+          <li data-reveal><span class="label">Produto</span><p>Ingredientes, sabores e tradições da região.</p></li>
+          <li data-reveal style="--d:.1s"><span class="label">Cozinha</span><p>Mediterrânica e ibérica, com as tradições da região.</p></li>
+          <li data-reveal style="--d:.2s"><span class="label">Vinho</span><p>Vinhos do Douro, do copo à garrafa.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section menu" id="menu">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="split" data-reveal>O menu</h2>
+          <p class="script menu__note-script" data-exemplo><span>carta de exemplo</span></p>
+        </div>
+        <div class="menu__grid">
+          <article class="menu__cat" data-reveal data-img="img/tabua.webp" style="--d:0.0s">
+            <h3>Entradas</h3>
+            <ul class="dishes">
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Pão e azeitonas</span><ul class="allergens" aria-label="Alergénios"><li title="Glúten"><svg class="al" aria-hidden="true"><use href="#al-gluten"/></svg><span class="sr">Glúten</span></li></ul></span><span class="dish__price">3,00&nbsp;€</span></div><p>Pão caseiro, azeitonas e azeite do Douro.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Alheira de caça</span><ul class="allergens" aria-label="Alergénios"><li title="Glúten"><svg class="al" aria-hidden="true"><use href="#al-gluten"/></svg><span class="sr">Glúten</span></li><li title="Ovo"><svg class="al" aria-hidden="true"><use href="#al-ovo"/></svg><span class="sr">Ovo</span></li></ul></span><span class="dish__price">8,50&nbsp;€</span></div><p>Com ovo estrelado e grelos salteados.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Queijo da Serra</span><ul class="allergens" aria-label="Alergénios"><li title="Leite"><svg class="al" aria-hidden="true"><use href="#al-leite"/></svg><span class="sr">Leite</span></li><li title="Frutos de casca rija"><svg class="al" aria-hidden="true"><use href="#al-nozes"/></svg><span class="sr">Frutos de casca rija</span></li></ul></span><span class="dish__price">9,00&nbsp;€</span></div><p>Amanteigado, com doce de abóbora e nozes.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Croquetes de presunto</span><ul class="allergens" aria-label="Alergénios"><li title="Glúten"><svg class="al" aria-hidden="true"><use href="#al-gluten"/></svg><span class="sr">Glúten</span></li><li title="Ovo"><svg class="al" aria-hidden="true"><use href="#al-ovo"/></svg><span class="sr">Ovo</span></li><li title="Leite"><svg class="al" aria-hidden="true"><use href="#al-leite"/></svg><span class="sr">Leite</span></li></ul></span><span class="dish__price">7,50&nbsp;€</span></div><p>Cremosos, com maionese de alho assado.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Presunto e enchidos</span></span><span class="dish__price">12,00&nbsp;€</span></div><p>Presunto, chouriço e salpicão cortados à mesa.</p></li>
+            </ul>
+          </article>
+
+          <article class="menu__cat" data-reveal data-img="img/assado.webp" style="--d:0.1s">
+            <h3>Pratos</h3>
+            <ul class="dishes">
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Bacalhau à lagareiro</span><ul class="allergens" aria-label="Alergénios"><li title="Peixe"><svg class="al" aria-hidden="true"><use href="#al-peixe"/></svg><span class="sr">Peixe</span></li></ul></span><span class="dish__price">17,50&nbsp;€</span></div><p>Lombo assado em azeite, batata a murro e grelos.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Cabrito assado</span></span><span class="dish__price">18,50&nbsp;€</span></div><p>No forno, com batata assada e arroz de forno.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Arroz de pato</span></span><span class="dish__price">15,50&nbsp;€</span></div><p>Pato desfiado, chouriço e laranja.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Bochechas de porco preto</span><ul class="allergens" aria-label="Alergénios"><li title="Sulfitos"><svg class="al" aria-hidden="true"><use href="#al-sulfitos"/></svg><span class="sr">Sulfitos</span></li><li title="Leite"><svg class="al" aria-hidden="true"><use href="#al-leite"/></svg><span class="sr">Leite</span></li></ul></span><span class="dish__price">16,00&nbsp;€</span></div><p>Estufadas em vinho tinto, com puré de castanha.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Posta de vitela</span></span><span class="dish__price">19,50&nbsp;€</span></div><p>Grelhada, com batata frita e legumes.</p></li>
+            </ul>
+          </article>
+
+          <article class="menu__cat" data-reveal data-img="img/vinho-servir.webp" style="--d:0.2s">
+            <h3>Sobremesas e vinhos</h3>
+            <ul class="dishes">
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Pudim Abade de Priscos</span><ul class="allergens" aria-label="Alergénios"><li title="Ovo"><svg class="al" aria-hidden="true"><use href="#al-ovo"/></svg><span class="sr">Ovo</span></li><li title="Leite"><svg class="al" aria-hidden="true"><use href="#al-leite"/></svg><span class="sr">Leite</span></li><li title="Sulfitos"><svg class="al" aria-hidden="true"><use href="#al-sulfitos"/></svg><span class="sr">Sulfitos</span></li></ul></span><span class="dish__price">5,50&nbsp;€</span></div><p>Com calda de vinho do Porto.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Tarte de amêndoa</span><ul class="allergens" aria-label="Alergénios"><li title="Frutos de casca rija"><svg class="al" aria-hidden="true"><use href="#al-nozes"/></svg><span class="sr">Frutos de casca rija</span></li><li title="Ovo"><svg class="al" aria-hidden="true"><use href="#al-ovo"/></svg><span class="sr">Ovo</span></li><li title="Glúten"><svg class="al" aria-hidden="true"><use href="#al-gluten"/></svg><span class="sr">Glúten</span></li><li title="Leite"><svg class="al" aria-hidden="true"><use href="#al-leite"/></svg><span class="sr">Leite</span></li></ul></span><span class="dish__price">5,00&nbsp;€</span></div><p>Com gelado de baunilha.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Arroz doce</span><ul class="allergens" aria-label="Alergénios"><li title="Leite"><svg class="al" aria-hidden="true"><use href="#al-leite"/></svg><span class="sr">Leite</span></li></ul></span><span class="dish__price">4,50&nbsp;€</span></div><p>À moda antiga, com canela.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Vinho do Douro, ao copo</span><ul class="allergens" aria-label="Alergénios"><li title="Sulfitos"><svg class="al" aria-hidden="true"><use href="#al-sulfitos"/></svg><span class="sr">Sulfitos</span></li></ul></span><span class="dish__price">4,50&nbsp;€</span></div><p>Tinto ou branco. Pergunte pela sugestão da casa.</p></li>
+              <li><div class="dish__top"><span class="dish__id"><span class="dish__name">Vinho do Porto</span><ul class="allergens" aria-label="Alergénios"><li title="Sulfitos"><svg class="al" aria-hidden="true"><use href="#al-sulfitos"/></svg><span class="sr">Sulfitos</span></li></ul></span><span class="dish__price">6,50&nbsp;€</span></div><p>Tawny ou branco.</p></li>
+            </ul>
+          </article>
+
+        </div>
+
+        <div class="legend" data-reveal>
+          <p class="label legend__title">Alergénios</p>
+          <ul class="legend__list">
+            <li><svg class="al" aria-hidden="true"><use href="#al-gluten"/></svg><span>Glúten</span></li>
+            <li><svg class="al" aria-hidden="true"><use href="#al-ovo"/></svg><span>Ovo</span></li>
+            <li><svg class="al" aria-hidden="true"><use href="#al-leite"/></svg><span>Leite</span></li>
+            <li><svg class="al" aria-hidden="true"><use href="#al-peixe"/></svg><span>Peixe</span></li>
+            <li><svg class="al" aria-hidden="true"><use href="#al-nozes"/></svg><span>Frutos de casca rija</span></li>
+            <li><svg class="al" aria-hidden="true"><use href="#al-sesamo"/></svg><span>Sésamo</span></li>
+            <li><svg class="al" aria-hidden="true"><use href="#al-sulfitos"/></svg><span>Sulfitos</span></li>
+          </ul>
+        </div>
+        <p class="menu__note" data-reveal data-final="Preços com IVA incluído. Os símbolos indicam os alergénios presentes em cada prato. Informe-nos de qualquer alergia ou intolerância.">Carta ilustrativa: pratos e preços de exemplo, a validar com o restaurante. Preços com IVA incluído. Os símbolos indicam os alergénios presentes em cada prato. Informe-nos de qualquer alergia ou intolerância.</p>
+      </div>
+      <div class="preview" aria-hidden="true"><img alt="" src="img/tabua.webp" width="220" height="280"></div>
+    </section>
+
+    <!-- AMBIENTE: galeria horizontal -->
+    <section class="reel" id="galeria" aria-label="Ambiente" data-reel>
+      <div class="reel__pin">
+        <p class="reel__bg" aria-hidden="true">Mesa</p>
+        <div class="reel__track">
+          <figure class="shot s1"><div class="shot__img"><img loading="lazy" src="img/vinhas.webp" width="1400" height="933" alt="Filas de videiras numa encosta, à luz do fim da tarde"></div><figcaption class="label">As vinhas</figcaption></figure>
+          <figure class="shot s2"><div class="shot__img"><img loading="lazy" src="img/sala-madeira.webp" width="733" height="1100" alt="Sala com paredes de madeira e mesas postas"></div><figcaption class="label">A sala</figcaption></figure>
+          <figure class="shot s3"><div class="shot__img"><img loading="lazy" src="img/quinta.webp" width="733" height="1100" alt="Capela entre vinhas em socalcos"></div><figcaption class="label">A quinta</figcaption></figure>
+          <figure class="shot s4"><div class="shot__img"><img loading="lazy" src="img/vinho-mesa.webp" width="733" height="1100" alt="Copo de vinho tinto numa mesa de mármore"></div><figcaption class="label">O vinho</figcaption></figure>
+          <figure class="shot s5"><div class="shot__img"><img loading="lazy" src="img/tabua.webp" width="1400" height="1195" alt="Tábua de madeira com queijos, presunto e enchidos"></div><figcaption class="label">A tábua</figcaption></figure>
+          <figure class="shot s6"><div class="shot__img"><img loading="lazy" src="img/fumeiro.webp" width="733" height="1100" alt="Enchidos pendurados a fumar"></div><figcaption class="label">O fumeiro</figcaption></figure>
+        </div>
+        <div class="reel__bar" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- HORÁRIO (verde) -->
+    <section class="wipe visit" id="horario">
+      <div class="wipe__bg" aria-hidden="true"></div>
+      <div class="wrap visit__grid">
+        <div>
+          <h2 class="split" data-reveal>Horário e localização</h2>
+          <div class="visit__block" data-reveal style="--d:.1s">
+            <h3 class="visit__label">Horário</h3>
+            <dl class="hours">
+              <div><dt>Segunda</dt><dd>Fechado</dd></div>
+              <div><dt>Terça a sábado</dt><dd>12h00 – 15h00 · 19h00 – 22h30</dd></div>
+              <div><dt>Domingo</dt><dd>12h00 – 16h00</dd></div>
+            </dl>
+            <p class="visit__note" data-exemplo>Horário de exemplo, a confirmar com o restaurante.</p>
+            <p class="status" id="estado" aria-live="polite" hidden><span class="status__dot" aria-hidden="true"></span><span id="estado-texto"></span></p>
+          </div>
+          <div class="visit__block" data-reveal style="--d:.2s">
+            <h3 class="visit__label">Morada</h3>
+            <address>
+              Rua do Marquês de Pombal, 49<br>
+              5050-282 Peso da Régua<br>
+              <a href="tel:+351965364042">965 364 042</a><br>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=41.1616879,-7.7902186" target="_blank" rel="noopener">Ver no Google Maps</a>
+            </address>
+          </div>
+        </div>
+        <a class="map" data-reveal href="https://www.google.com/maps/search/?api=1&amp;query=41.1616879,-7.7902186" target="_blank" rel="noopener" aria-label="Abrir a localização do Bastardo Restaurante no Google Maps">
+          <svg viewBox="0 0 400 340" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="400" height="340" fill="#e9e1cf"/>
+            <g fill="#dcd2bb">
+              <rect x="20" y="24" width="86" height="60"/><rect x="128" y="24" width="120" height="60"/><rect x="270" y="24" width="110" height="60"/>
+              <rect x="20" y="108" width="86" height="76"/><rect x="270" y="108" width="110" height="76"/>
+              <rect x="20" y="208" width="86" height="60"/><rect x="128" y="208" width="120" height="60"/><rect x="270" y="208" width="110" height="60"/>
+              <rect x="20" y="290" width="360" height="30"/>
+            </g>
+            <rect x="128" y="108" width="120" height="76" fill="#c3cfb5"/>
+            <g stroke="#f8f4ea" stroke-width="12" fill="none"><path d="M0 96H400"/><path d="M0 196H400"/><path d="M117 0V340"/><path d="M259 0V340"/><path d="M0 280H400"/></g>
+          </svg>
+          <div class="pin" aria-hidden="true"><svg viewBox="0 0 40 52" width="34" height="44"><path d="M20 1C9.5 1 2 8.6 2 18.6 2 31 20 51 20 51s18-20 18-32.4C38 8.6 30.5 1 20 1z" fill="#b8301f"/><rect x="14" y="12" width="12" height="12" fill="#f7f2e7"/></svg></div>
+          <p class="map__label">Bastardo · Peso da Régua<br><small>Abrir no Google Maps ↗</small></p>
+        </a>
+      </div>
+    </section>
+
+    <!-- RESERVAS -->
+    <section class="section reserve" id="reservas">
+      <div class="wrap reserve__grid">
+        <div class="section__head">
+          <h2 class="split" data-reveal>Reservar mesa</h2>
+          <p class="lead" data-reveal style="--d:.1s">Indique quando vem e guardamos-lhe uma mesa. Também pode reservar pelo telefone: <a class="tel" href="tel:+351965364042">965 364 042</a>.</p>
+          <p class="script reserve__note"><span>até já!</span></p>
+        </div>
+        <form class="form" id="form-reserva" novalidate>
+          <div class="form__body" id="form-body">
+            <noscript><p class="noscript">Para pedir mesa por aqui é preciso ativar o JavaScript. Pode sempre ligar para <a href="tel:+351965364042">965 364 042</a>.</p></noscript>
+            <fieldset class="group">
+              <legend>Pessoas</legend>
+              <div class="chips chips--guests">
+              <div class="chip"><input type="radio" name="pessoas" id="p1" value="1"><label for="p1">1</label></div>
+              <div class="chip"><input type="radio" name="pessoas" id="p2" value="2" checked><label for="p2">2</label></div>
+              <div class="chip"><input type="radio" name="pessoas" id="p3" value="3"><label for="p3">3</label></div>
+              <div class="chip"><input type="radio" name="pessoas" id="p4" value="4"><label for="p4">4</label></div>
+              <div class="chip"><input type="radio" name="pessoas" id="p5" value="5"><label for="p5">5</label></div>
+              <div class="chip"><input type="radio" name="pessoas" id="p6" value="6"><label for="p6">6+</label></div>
+              </div>
+            
+            </fieldset>
+
+            <fieldset class="group">
+              <legend>Dia</legend>
+              <div class="chips chips--days" id="dias"></div>
+            </fieldset>
+
+            <fieldset class="group">
+              <legend>Hora</legend>
+              <div class="chips chips--times">
+              <div class="chip"><input type="radio" name="hora" id="h0" value="12:00"><label for="h0">12h00</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h1" value="12:30"><label for="h1">12h30</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h2" value="13:00"><label for="h2">13h00</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h3" value="13:30"><label for="h3">13h30</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h4" value="14:00"><label for="h4">14h00</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h5" value="19:00"><label for="h5">19h00</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h6" value="19:30"><label for="h6">19h30</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h7" value="20:00" checked><label for="h7">20h00</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h8" value="20:30"><label for="h8">20h30</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h9" value="21:00"><label for="h9">21h00</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h10" value="21:30"><label for="h10">21h30</label></div>
+              <div class="chip"><input type="radio" name="hora" id="h11" value="22:00"><label for="h11">22h00</label></div>
+              </div>
+            </fieldset>
+
+            <div class="group group--fields">
+              <div class="field">
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" autocomplete="name" placeholder="O seu nome…" required aria-describedby="nome-erro">
+                <p class="field__error" id="nome-erro" hidden>Indique o seu nome para a reserva.</p>
+              </div>
+              <div class="field">
+                <label for="tel">Telemóvel <span class="opt">(opcional)</span></label>
+                <input id="tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="+351 000 000 000">
+              </div>
+            </div>
+
+            <p class="summary" id="resumo" aria-live="polite"></p>
+            <button class="btn btn--block" type="submit">Continuar</button>
+            <p class="form__hint">O pedido segue por WhatsApp e o restaurante confirma a reserva. Não guardamos os seus dados neste site.</p>
+          </div>
+
+          <div class="confirm" id="confirmacao" role="status" aria-live="polite" tabindex="-1" hidden>
+            <p class="confirm__tag">Falta só um passo</p>
+            <h3 id="confirmacao-titulo">Quase pronto.</h3>
+            <p class="confirm__summary" id="confirmacao-resumo"></p>
+            <p class="confirm__note">Envie o pedido por WhatsApp e o restaurante confirma a reserva. Se preferir, ligue para <a class="tel" href="tel:+351965364042">965 364 042</a>.</p>
+            <div class="confirm__actions">
+              <a class="btn" id="enviar-wa" href="https://wa.me/351965364042" target="_blank" rel="noopener">Enviar por WhatsApp</a>
+              <button class="btn btn--outline" type="button" id="nova-reserva">Alterar pedido</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- CRÍTICAS -->
+    <section class="section reviews" id="criticas" aria-labelledby="criticas-titulo">
+      <div class="wrap reviews__grid">
+        <div class="reviews__intro">
+          <h2 class="split" id="criticas-titulo" data-reveal>O que dizem de nós</h2>
+          <p class="script reviews__note"><span>no Google</span></p>
+          <div class="rating" data-reveal style="--d:.1s">
+            <p class="rating__num" aria-label="Classificação 4,7 em 5">4,7<small>/5</small></p>
+            <div class="stars" style="--p:94" role="img" aria-label="4,7 estrelas em 5"></div>
+            <p class="rating__count">43 críticas no Google</p>
+          </div>
+          <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Bastardo+Restaurante+Peso+da+R%C3%A9gua" target="_blank" rel="noopener" data-reveal style="--d:.2s">Ver todas as críticas</a>
+        </div>
+
+        <div class="reviews__list">
+          <figure class="quote" data-reveal style="--d:.1s">
+            <div class="stars" style="--p:100" role="img" aria-label="5 estrelas em 5"></div>
+            <blockquote><p>Simplesmente fantástico.</p></blockquote>
+            <figcaption><span class="quote__name">Carlos Oliveira</span><span class="label">Crítica no Google · 5/5</span></figcaption>
+          </figure>
+          <figure class="quote" data-reveal style="--d:.2s">
+            <div class="stars" style="--p:100" role="img" aria-label="5 estrelas em 5"></div>
+            <blockquote><p>Pratos ótimos, rapidez de serviço. Recomendo vivamente.</p></blockquote>
+            <figcaption><span class="quote__name">Ana da Costa</span><span class="label">Crítica no Google · 5/5</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="demo-banner" role="note" data-final="Website criado pela <a href=&quot;https://bagatela.pt&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;>Bagatela</a>">Proposta de website · Conteúdo de exemplo · Criado pela Bagatela</div>
+    <div class="wrap footer__inner">
+      <p class="footer__mark" aria-hidden="true" data-letters>Bastardo</p>
+      <ul class="social" aria-label="Redes sociais">
+        <li><a href="https://www.facebook.com/p/Bastardo-Restaurante-61592483409247/" target="_blank" rel="noopener" aria-label="Facebook do Bastardo Restaurante"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v6h4v-6h3l1-4h-4V8z" fill="currentColor"/></svg><span>Bastardo Restaurante</span></a></li>
+      </ul>
+      <nav class="legal" aria-label="Informação legal">
+        <a href="politica-de-privacidade.html">Política de Privacidade</a>
+        <a href="https://www.livroreclamacoes.pt/inicio" target="_blank" rel="noopener">Livro de Reclamações</a>
+      </nav>
+      <p class="footer__small" data-final="Rua do Marquês de Pombal, 49 · 5050-282 Peso da Régua · 965 364 042<br>© <span id=&quot;ano&quot;>2026</span> Bastardo Restaurante · Website criado pela Bagatela">Rua do Marquês de Pombal, 49 · 5050-282 Peso da Régua · 965 364 042<br>© <span id="ano">2026</span> Bastardo Restaurante · Proposta de website da Bagatela, não oficial</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
